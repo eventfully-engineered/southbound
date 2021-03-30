@@ -1,0 +1,19 @@
+[package]
+name = "southbound-cli"
+description = "CLI tool for Southbound SQL Migrations"
+version = "0.1.0"
+authors = ["seancarroll"]
+edition = "2018"
+readme = "../README.md"
+keywords = ["sql", "migrations"]
+categories = ["command-line-utilities", "cli", "SQL"]
+repository = "https://github.com/eventfully-engineered/southbound"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.32"
+dirs = "3.0"
+lazy_static = "1.2.0"
+walkdir = "2.3"
