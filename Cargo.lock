@@ -191,11 +191,11 @@ dependencies = [
 
 [[package]]
 name = "southbound"
-version = "0.1.0"
+version = "0.0.1"
 
 [[package]]
 name = "southbound-cli"
-version = "0.1.0"
+version = "0.0.1"
 dependencies = [
  "clap",
  "dirs",
