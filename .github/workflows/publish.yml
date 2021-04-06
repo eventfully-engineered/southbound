@@ -15,4 +15,7 @@ jobs:
       - name: Publish
         run: |
           cargo login ${{ secrets.CARGO_API_KEY }}
+          cd cli
+          cargo publish
+          cd ../lib
           cargo publish
